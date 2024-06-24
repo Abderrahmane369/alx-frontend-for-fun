@@ -1,6 +1,6 @@
 /*FZAZZAZAZ*/
 @for $i from 1 through 5 {
-    h#{i} {
+    h#{$i} {
         font-size: #{$i}px;
     }
 }
