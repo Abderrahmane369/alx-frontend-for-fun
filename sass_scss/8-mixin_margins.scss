@@ -1,0 +1,14 @@
+/*FZAZZAZAZ*/
+
+@mixin margin($m) {
+    margin-left: $m;
+    margin-right: $m;
+}
+
+body {
+    @include margin(10px);
+}
+
+div {
+    @include margin(15px);
+}
